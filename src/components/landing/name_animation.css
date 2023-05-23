@@ -1,0 +1,576 @@
+/* 
+#round-element {
+    width: 3px;
+    height: 3px;
+    background-color: var(--text-colour);
+    border-radius: 50%;
+    opacity: 20%;
+    margin: 10px;
+  
+    position: absolute;
+  }
+
+.landing-name:hover + #round-element.re-1,
+.landing-main-div.name-hovered #round-element.re-1 {
+  animation: dots-1 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-2,
+.landing-main-div.name-hovered #round-element.re-2 {
+  animation: dots-2 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-3,
+.landing-main-div.name-hovered #round-element.re-3 {
+  animation: dots-3 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-4,
+.landing-main-div.name-hovered #round-element.re-4 {
+  animation: dots-4 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-5,
+.landing-main-div.name-hovered #round-element.re-5 {
+  animation: dots-5 2s ease forwards;
+}
+
+@keyframes dots-1 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 50%;
+      left: 10%;
+    }
+  }
+  
+  @keyframes dots-2 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 50%;
+      left: 10.5%;
+    }
+  }
+  
+  @keyframes dots-3 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 50%;
+      left: 11%;
+    }
+  }
+  
+  @keyframes dots-4 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 50%;
+      left: 11.5%;
+    }
+  }
+  
+  @keyframes dots-5 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 50%;
+      left: 12%;
+    }
+  }
+
+.landing-name:hover + #round-element.re-6,
+.landing-main-div.name-hovered #round-element.re-6 {
+  animation: dots-6 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-7,
+.landing-main-div.name-hovered #round-element.re-7 {
+  animation: dots-7 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-8,
+.landing-main-div.name-hovered #round-element.re-8 {
+  animation: dots-8 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-9,
+.landing-main-div.name-hovered #round-element.re-9 {
+  animation: dots-9 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-10,
+.landing-main-div.name-hovered #round-element.re-10 {
+  animation: dots-10 2s ease forwards;
+}
+
+@keyframes dots-6 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 49%;
+    left: 10%;
+  }
+}
+
+@keyframes dots-7 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 49%;
+    left: 10.5%;
+  }
+}
+
+@keyframes dots-8 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 49%;
+    left: 11%;
+  }
+}
+
+@keyframes dots-9 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 49%;
+    left: 11.5%;
+  }
+}
+
+@keyframes dots-10 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 49%;
+    left: 12%;
+  }
+}
+
+.landing-name:hover + #round-element.re-11,
+.landing-main-div.name-hovered #round-element.re-11 {
+  animation: dots-11 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-12,
+.landing-main-div.name-hovered #round-element.re-12 {
+  animation: dots-12 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-13,
+.landing-main-div.name-hovered #round-element.re-13 {
+  animation: dots-13 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-14,
+.landing-main-div.name-hovered #round-element.re-14 {
+  animation: dots-14 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-15,
+.landing-main-div.name-hovered #round-element.re-15 {
+  animation: dots-15 2s ease forwards;
+}
+
+@keyframes dots-11 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 48%;
+      left: 10%;
+    }
+  }
+  
+  @keyframes dots-12 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 48%;
+      left: 10.5%;
+    }
+  }
+  
+  @keyframes dots-13 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 48%;
+      left: 11%;
+    }
+  }
+  
+  @keyframes dots-14 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 48%;
+      left: 11.5%;
+    }
+  }
+  
+  @keyframes dots-15 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 48%;
+      left: 12%;
+    }
+  }
+  
+.landing-name:hover + #round-element.re-16,
+.landing-main-div.name-hovered #round-element.re-16 {
+  animation: dots-16 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-17,
+.landing-main-div.name-hovered #round-element.re-17 {
+  animation: dots-17 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-18,
+.landing-main-div.name-hovered #round-element.re-18 {
+  animation: dots-18 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-19,
+.landing-main-div.name-hovered #round-element.re-19 {
+  animation: dots-19 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-20,
+.landing-main-div.name-hovered #round-element.re-20 {
+  animation: dots-20 2s ease forwards;
+}
+
+@keyframes dots-16 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 47%;
+    left: 10%;
+  }
+}
+
+@keyframes dots-17 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 47%;
+    left: 10.5%;
+  }
+}
+
+@keyframes dots-18 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 47%;
+    left: 11%;
+  }
+}
+
+@keyframes dots-19 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 47%;
+    left: 11.5%;
+  }
+}
+
+@keyframes dots-20 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 47%;
+    left: 12%;
+  }
+}
+
+.landing-name:hover + #round-element.re-21,
+.landing-main-div.name-hovered #round-element.re-21 {
+  animation: dots-21 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-22,
+.landing-main-div.name-hovered #round-element.re-22 {
+  animation: dots-22 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-23,
+.landing-main-div.name-hovered #round-element.re-23 {
+  animation: dots-23 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-24,
+.landing-main-div.name-hovered #round-element.re-24 {
+  animation: dots-24 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-25,
+.landing-main-div.name-hovered #round-element.re-25 {
+  animation: dots-25 2s ease forwards;
+}
+
+@keyframes dots-21 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 46%;
+      left: 10%;
+    }
+  }
+  
+  @keyframes dots-22 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 46%;
+      left: 10.5%;
+    }
+  }
+  
+  @keyframes dots-23 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 46%;
+      left: 11%;
+    }
+  }
+  
+  @keyframes dots-24 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 46%;
+      left: 11.5%;
+    }
+  }
+  
+  @keyframes dots-25 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 46%;
+      left: 12%;
+    }
+  }
+  
+.landing-name:hover + #round-element.re-26,
+.landing-main-div.name-hovered #round-element.re-26 {
+  animation: dots-26 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-27,
+.landing-main-div.name-hovered #round-element.re-27 {
+  animation: dots-27 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-28,
+.landing-main-div.name-hovered #round-element.re-28 {
+  animation: dots-28 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-29,
+.landing-main-div.name-hovered #round-element.re-29 {
+  animation: dots-29 2s ease forwards;
+}
+
+.landing-name:hover + #round-element.re-30,
+.landing-main-div.name-hovered #round-element.re-30 {
+  animation: dots-30 2s ease forwards;
+}
+
+@keyframes dots-26 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 45%;
+    left: 10%;
+  }
+}
+
+@keyframes dots-27 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 45%;
+    left: 10.5%;
+  }
+}
+
+@keyframes dots-28 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 45%;
+    left: 11%;
+  }
+}
+
+@keyframes dots-29 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 45%;
+    left: 11.5%;
+  }
+}
+
+@keyframes dots-30 {
+  0% {
+    top: 0%;
+    left: 0%;
+  }
+  100% {
+    top: 45%;
+    left: 12%;
+  }
+}
+
+.landing-main-div.name-hovered #round-element.re-31 {
+    animation: dots-31 2s ease forwards;
+    top: 44%;
+    left: 10%;
+  }
+  
+.landing-main-div.name-hovered  #round-element.re-32 {
+    animation: dots-32 2s ease forwards;
+    top: 44%;
+    left: 10.5%;
+  }
+  
+ .landing-main-div.name-hovered #round-element.re-33 {
+    animation: dots-33 2s ease forwards;
+    top: 44%;
+    left: 11%;
+  }
+  
+  .landing-main-div.name-hovered #round-element.re-34 {
+    animation: dots-34 2s ease forwards;
+    top: 44%;
+    left: 11.5%;
+  }
+  
+  .landing-main-div.name-hovered #round-element.re-35 {
+    animation: dots-35 2s ease forwards;
+    top: 44%;
+    left: 12%;
+  }
+  
+  @keyframes dots-31 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 44%;
+      left: 10%;
+    }
+  }
+  
+  @keyframes dots-32 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 44%;
+      left: 10.5%;
+    }
+  }
+  
+  @keyframes dots-33 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 44%;
+      left: 11%;
+    }
+  }
+  
+  @keyframes dots-34 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 44%;
+      left: 11.5%;
+    }
+  }
+  
+  @keyframes dots-35 {
+    0% {
+      top: 0%;
+      left: 0%;
+    }
+    100% {
+      top: 44%;
+      left: 12%;
+    }
+  } */

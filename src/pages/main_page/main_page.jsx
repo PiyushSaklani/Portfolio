@@ -20,7 +20,7 @@ function MAIN_PAGE() {
       {!showMenu && (
         <div className="main-P-outer-div">
           <div className="main-P-appbar">
-            <div className="main-P-name">PiyushSaklani</div>
+            <div className="main-P-name">Saklani_</div>
             <div className="main-P-menu-btn" onClick={handle_menu_open_btn}></div>
             <ul className="main-P-nav-list">
               <li id="main-P-nav-item">Home</li>
