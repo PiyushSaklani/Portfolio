@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Rajdhani&family=Raleway&family=Sacramento&family=Space+Grotesk&display=swap");
+
+:root {
+  --primary-colour: #f8f9fa;
+  --text-colour: #343a40;
+
+  --font-1: "Sacramento", cursive;
+  --font-2: "Space Grotesk", sans-serif;
+  --font-3: "Raleway", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-P-outer-div {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main-P-appbar {
+    padding: 0 20px;
+  height: 8%;
+  background-color: var(--primary-colour);
+  box-shadow: 0 0 50px rgba(248,249,250,1);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.main-P-inner-div {
+  height: 100%;
+  overflow-y: scroll;
+  background-color: var(--primary-colour);
+  scroll-behavior: slow;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.main-P-name{
+    font-family: var(--font-1);
+    font-size: 28px;
+    color: var(--text-colour);
+}
+
+#main-P-nav-item{
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+  font-family: var(--font-2);
+  color: var(--text-colour);
+  cursor: pointer;
+}
+#main-P-nav-item:hover{
+  text-decoration: underline;
+}
+
+#main-P-nav-item button{
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  color: var(--primary-colour);
+  background-color: var(--text-colour);
+  cursor: pointer;
+}
+#main-P-nav-item:hover button{
+  background-color: #212529;
+}
+
+.main-P-landing-div0{
+  height: 100%;
+  width: 100%;
+  background-color: aquamarine;
+}
+.main-P-landing-div1{
+  height: 100%;
+  width: 100%;
+  background-color: blueviolet;
+}
+.main-P-landing-div2{
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+}
+
+.main-P-menu-btn{
+  display: none;
+  width: 30px;
+  height: 30px;
+  background-image: url('../../assets/menu.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+
+/* -------------------------------------------------- */
+
+
+
+@media only screen and (max-width: 770px) {
+
+  .main-P-menu-btn{
+    display: block;
+  }
+
+  .main-P-menu-button {
+    display: block;
+  }
+
+  .main-P-nav-list {
+    display: none;
+  }
+}
