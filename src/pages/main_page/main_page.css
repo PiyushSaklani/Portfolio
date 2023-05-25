@@ -20,6 +20,8 @@
 
   display: flex;
   flex-direction: column;
+
+  overflow-x: hidden;
 }
 
 .main-P-appbar {
@@ -100,8 +102,6 @@
   background-position: center;
   background-size: contain;
 }
-
-
 
 /* -------------------------------------------------- */
 
