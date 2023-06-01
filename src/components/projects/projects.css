@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Rajdhani&family=Raleway&family=Rubik:wght@800&family=Sacramento&family=Space+Grotesk&display=swap");
+
+:root {
+  --primary-colour: #f8f9fa;
+  --text-colour: #343a40;
+
+  --font-1: "Sacramento", cursive;
+  --font-2: "Space Grotesk", sans-serif;
+  --font-3: "Raleway", sans-serif;
+  --font-4: "Rubik", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-2);
+}
+
+.project-main-div {
+
+  margin-top: 10%;
+  width: 100%;
+
+  background-color: var(--primary-colour);
+}
+
+.title-div{
+  height: 35px;
+  position: relative;
+  /* background-color: aquamarine; */
+}
+
+.project-title-1 {
+  position: absolute;
+  font-family: var(--font-4);
+  /* font-size: 54px; */
+
+  color: var(--text-colour);
+  font-size: 136px;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: var(--text-colour);
+  opacity: 30%;
+
+  padding-left: 60px;
+}

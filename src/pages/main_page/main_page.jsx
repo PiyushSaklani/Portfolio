@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "../main_page/main_page.css";
 import MENU from "../../components/menu/menu";
-import Landing from "../../components/landing/landing";
+import PROJECTS_PAGE from "../../components/projects/projects";
+import LANDING_PAGE from "../../components/landing/landing"
+import SKILLS from "../../components/skills/skills";
+import CONTACT from "../../components/contact/contact";
 
 function MAIN_PAGE() {
   const [showMenu, setShowMenu] = useState(false);
@@ -33,8 +36,10 @@ function MAIN_PAGE() {
             </ul>
           </div>
           <div className="main-P-inner-div">
-            <Landing />
-            <div className="main-P-landing-div1"></div>
+            <LANDING_PAGE />
+            <SKILLS />
+            <PROJECTS_PAGE />
+            <CONTACT />
             <div className="main-P-landing-div2"></div>
           </div>
         </div>

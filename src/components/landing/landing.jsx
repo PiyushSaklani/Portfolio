@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../landing/landing.css";
 import "../landing/name_animation.css";
 
-function Landing() {
+function LANDING_PAGE() {
   const [isHovered, setIsHovered] = useState(false);
   const [location, setLocation] = useState({
     el1:{t:25,l:85},
@@ -22,7 +22,7 @@ function Landing() {
       },
       el2: {
         t: 85 + clientX / 1000,
-        l: 86 + clientY / 1000,
+        l: 80 + clientY / 1000,
       },
       el3: {
         t: 25 + clientX / 1000,
@@ -73,4 +73,4 @@ function Landing() {
   );
 }
 
-export default Landing;
+export default LANDING_PAGE;

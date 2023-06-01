@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Rajdhani&family=Raleway&family=Rubik:wght@800&family=Sacramento&family=Space+Grotesk&display=swap");
+
+:root {
+  --primary-colour: #f8f9fa;
+  --text-colour: #343a40;
+
+  --font-1: "Sacramento", cursive;
+  --font-2: "Space Grotesk", sans-serif;
+  --font-3: "Raleway", sans-serif;
+  --font-4: "Rubik", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-2);
+}
+
+.skills-main {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--text-colour);
+
+  /* margin: 20% 0; */
+}
+
+.skills-title {
+
+    margin: 0 60px;
+    height: 100%;
+  font-family: var(--font-4);
+  font-size: 124px;
+  writing-mode: vertical-rl;
+  transform: rotate(-180deg);
+  text-align: center;
+
+  color: var(--primary-colour);
+  /* background-color: aqua; */
+  /* -webkit-text-fill-color: transparent; */
+  /* -webkit-text-stroke-width: 4px; */
+  /* -webkit-text-stroke-color: var(--text-colour); */
+}
+
+.skills-logo{
+    height: 100%;
+
+    margin: 0 30px;
+
+    /* background-color: aquamarine; */
+}
+
+#skills{
+    width: 80px;
+    height: 80px;
+
+    margin: 20px;
+
+    /* background-color: #343a40; */
+    background-repeat: no-repeat;
+    background-position:start;
+    background-size:contain;
+}
+
+.skill-1{
+    background-image: url("../../assets/icons/html2.png");
+}
+.skill-2{
+    background-image: url("../../assets/icons/css2.png");
+}
+.skill-3{
+    background-image: url("../../assets/icons/docker2.png");
+}
+.skill-4{
+    background-image: url("../../assets/icons/firebase2.png");
+}
+.skill-5{
+    background-image: url("../../assets/icons/github3.png");
+}
+.skill-6{
+    background-image: url("../../assets/icons/icons8-react-200.png");
+}
+.skill-7{
+    background-image: url("../../assets/icons/illustrator2.png");
+}
+.skill-8{
+    background-image: url("../../assets/icons/photoshop2.png");
+}
+.skill-9{
+    background-image: url("../../assets/icons/python2.png");
+}
+.skill-10{
+    background-image: url("../../assets/icons/java2.png");
+}
+.skill-11{
+    background-image: url("../../assets/icons/javascript2.png");
+}
+.skill-12{
+    background-image: url("../../assets/icons/typescript2.png");
+}
+.skill-13{
+    background-image: url("../../assets/icons/mongodb2.png");
+}
+.skill-14{
+    background-image: url("../../assets/icons/mysql2.png");
+}
+.skill-15{
+    background-image: url("../../assets/icons/node-js2.png");
+}
+.skill-16{
+    background-image: url("../../assets/icons/flutter2.png");
+}
