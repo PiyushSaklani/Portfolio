@@ -5,6 +5,7 @@ import PROJECTS_PAGE from "../../components/projects/projects";
 import LANDING_PAGE from "../../components/landing/landing"
 import SKILLS from "../../components/skills/skills";
 import CONTACT from "../../components/contact/contact";
+import ABOUT from "../../components/about/about";
 
 function MAIN_PAGE() {
   const [showMenu, setShowMenu] = useState(false);
@@ -23,7 +24,7 @@ function MAIN_PAGE() {
       {!showMenu && (
         <div className="main-P-outer-div">
           <div className="main-P-appbar">
-            <div className="main-P-name">Saklani_</div>
+            <div className="main-P-name">P.Saklani_</div>
             <div className="main-P-menu-btn" onClick={handle_menu_open_btn}></div>
             <ul className="main-P-nav-list">
               <li id="main-P-nav-item">Home</li>
@@ -39,8 +40,8 @@ function MAIN_PAGE() {
             <LANDING_PAGE />
             <SKILLS />
             <PROJECTS_PAGE />
+            <ABOUT />
             <CONTACT />
-            <div className="main-P-landing-div2"></div>
           </div>
         </div>
       )}

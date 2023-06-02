@@ -51,6 +51,16 @@
     font-family: var(--font-1);
     font-size: 28px;
     color: var(--text-colour);
+
+    /* -------------------- */
+
+    /* width: 60px;
+    height: 25px;
+
+    background-image: url("../../assets/Piyush\'s\ Logo2.png");
+    background-repeat: no-repeat;
+    background-position:start;
+    background-size:contain; */
 }
 
 #main-P-nav-item{

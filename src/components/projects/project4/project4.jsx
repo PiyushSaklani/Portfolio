@@ -8,7 +8,7 @@ function PROJECT_4() {
         <div className="p4-name-source">
           <div className="p4-name">JobPortal</div>
           <a
-            href="https://github.com/PiyushSaklani/ChatAPP.git"
+            href="https://github.com/PiyushSaklani"
             target="_blank"
             rel="noopener noreferrer"
           >
