@@ -361,35 +361,37 @@
 @media only screen and (max-width: 770px) {
   .landing-main-div{
     flex-direction: column;
+    overflow-x: hidden;
   }
 
   .landing-text{
-    width: 100%;
+    width: 100vw;
     height: 30%;
 
     justify-content: end;
   }
 
   .landing-pic{
-    width: 100%;
+    width: 100vw;
     height: 70%;
   }
 
   .landing-greeting{
     margin-left: 0;
-    width: 68%;
+    width: 78vw;
   font-size: 12px;
   }
 
   .landing-name{
     margin-left: 0;
     font-size: 38px;
-    width: 90%;
+    width: 80vw;
   }
 
   .landing-intro{
     margin-left: 0;
     font-size: 10px;
+    width: 80vw;
   }
 
   .landing-svg-element{

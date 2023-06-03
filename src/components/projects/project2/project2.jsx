@@ -24,6 +24,7 @@ function PROJECT_2() {
           <div className="p2-tool-3" id="p2-tool"></div>
         </div>
       </div>
+      <div className='project-img-p2'>
       <div className="p2-img-c1">
         <div className="p-2-img-1" id="p-img"></div>
       </div>
@@ -33,6 +34,7 @@ function PROJECT_2() {
       </div>
       <div className="p2-img-c3">
         <div className="p-2-img-4" id="p-img"></div>
+      </div>
       </div>
     </div>
   );

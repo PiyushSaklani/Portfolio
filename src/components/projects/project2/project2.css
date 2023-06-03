@@ -187,3 +187,61 @@
   .p2-tool-3{
     background-image: url("/src/assets/firebase.png");
   }
+  .project-img-p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 770px){
+    .project-2{
+      margin-top: 100px;
+      flex-direction: column;
+    }
+    .p2-img-c1{
+      width: 100px;
+      height: 250px;
+    }
+    .p2-img-c2{
+
+      width: 100px;
+      height: 400px;
+    }
+    .p2-img-c3{
+      width: 100px;
+      height: 250px;
+      margin-left: 0px;
+    }
+    .project-img-p2{
+      order: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .p2-name{
+      font-size: 32px;
+    }
+    .p2-source-code{
+      width: 15px;
+      height: 15px;
+    }
+    .p2-source-code:hover{
+      transform: scale(1.2);
+    }
+    .p2-discription{
+      line-height: 18px;
+      height: calc(2*18px);
+      word-spacing: 0px;
+      font-size: 14px;
+    }
+    #p2-tool{
+      height: 30px;
+      width: 30px;
+    }
+    .p2-details{
+      order: 2;
+    }
+    .p2-tools-used{
+      justify-content: end;
+    }
+  }

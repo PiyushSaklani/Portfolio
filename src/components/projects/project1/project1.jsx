@@ -4,6 +4,7 @@ import '../project1/project1.css'
 function PROJECT_1(){
     return(
         <div className="project-1">
+        <div className='project-img-p1'>
         <div className="p1-img-c1">
           <div className="p-1-img-1" id="p-img"></div>
         </div>
@@ -13,6 +14,7 @@ function PROJECT_1(){
         </div>
         <div className="p1-img-c3">
           <div className="p-1-img-4" id="p-img"></div>
+        </div>
         </div>
         <div className="p1-details">
           <div className="p1-name-source">

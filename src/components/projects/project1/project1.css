@@ -182,3 +182,54 @@
   .p1-tool-2{
     background-image: url("/src/assets/flutter.png");
   }
+  .project-img-p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 770px){
+    .project-1{
+      margin-top: 50px;
+      flex-direction: column;
+    }
+    .p1-img-c1{
+      width: 100px;
+      height: 250px;
+    }
+    .p1-img-c2{
+
+      width: 100px;
+      height: 400px;
+    }
+    .p1-img-c3{
+      width: 100px;
+      height: 250px;
+      margin-left: 0px;
+    }
+    .project-img-p1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .p1-name{
+      font-size: 32px;
+    }
+    .p1-source-code{
+      width: 15px;
+      height: 15px;
+    }
+    .p1-source-code:hover{
+      transform: scale(1.2);
+    }
+    .p1-discription{
+      line-height: 18px;
+      height: calc(2*18px);
+      word-spacing: 0px;
+      font-size: 14px;
+    }
+    #p1-tool{
+      height: 30px;
+      width: 30px;
+    }
+  }

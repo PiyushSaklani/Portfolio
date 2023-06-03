@@ -40,7 +40,7 @@
     justify-content: center;
     flex-direction: column;
 
-    margin-right: 40px;
+    padding: 0 40px;
   }
   
   .p3-name-source{
@@ -140,4 +140,36 @@
   }
   .p3-tool-5{
     background-image: url("/src/assets/mongodb.png");
+  }
+
+  @media only screen and (max-width: 770px){
+    .project-3{
+      margin-top: 100px;
+      flex-direction: column;
+    }
+    .p3-img{
+      width: 90vw;
+      /* background-color: #343a40; */
+      height: 220px;
+    }
+    .p3-name{
+      font-size: 32px;
+    }
+    .p3-source-code{
+      width: 15px;
+      height: 15px;
+    }
+    .p3-source-code:hover{
+      transform: scale(1.2);
+    }
+    .p3-discription{
+      line-height: 18px;
+      height: calc(2*18px);
+      word-spacing: 0px;
+      font-size: 14px;
+    }
+    #p3-tool{
+      height: 30px;
+      width: 30px;
+    }
   }

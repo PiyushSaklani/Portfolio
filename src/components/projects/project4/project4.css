@@ -144,3 +144,39 @@
   .p4-tool-5{
     background-image: url("/src/assets/mongodb.png");
   }
+
+  @media only screen and (max-width: 770px){
+    .project-4{
+      margin-top: 100px;
+      flex-direction: column;
+    }
+    .p4-img{
+      order: 1;
+      width: 90vw;
+      /* background-color: #343a40; */
+      height: 220px;
+    }
+    .p4-name{
+      font-size: 32px;
+    }
+    .p4-source-code{
+      width: 15px;
+      height: 15px;
+    }
+    .p4-source-code:hover{
+      transform: scale(1.2);
+    }
+    .p4-discription{
+      line-height: 18px;
+      height: calc(2*18px);
+      word-spacing: 0px;
+      font-size: 14px;
+    }
+    #p4-tool{
+      height: 30px;
+      width: 30px;
+    }
+    .p4-details{
+      order: 2;
+    }
+  }
