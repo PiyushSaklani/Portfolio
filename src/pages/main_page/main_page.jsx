@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import "../main_page/main_page.css";
-import MENU from "../../components/menu/menu";
 import PROJECTS_PAGE from "../../components/projects/projects";
 import LANDING_PAGE from "../../components/landing/landing";
 import SKILLS from "../../components/skills/skills";
