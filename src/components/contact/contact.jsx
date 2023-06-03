@@ -38,6 +38,19 @@ function CONTACT() {
             <div className="download-logo"></div>
           </div>
         </a>
+        <div className="contact-SocialMedia">
+        <a href="mailto:saklani302@gmail.com">
+          <div className="contact-Mail" id="SM"></div>
+        </a>
+
+        <a href="https://github.com/PiyushSaklani" target="_blank" rel="noopener noreferrer">
+          <div className="contact-GitHub" id="SM"></div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/piyushsaklani/" target="_blank" rel="noopener noreferrer">
+          <div className="contact-Linkedin" id="SM"></div>
+        </a>
+      </div>
       </div>
       <div className="contact-flex-div2">
         <form onSubmit={handleSubmit} className="contact-form">

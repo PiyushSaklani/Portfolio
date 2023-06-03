@@ -151,6 +151,9 @@
 .form-btn:hover{
     font-weight: 600;
 }
+.contact-SocialMedia{
+    display: none;
+}
 
 @media only screen and (max-width: 770px) {
     .contact-main{
@@ -174,4 +177,47 @@
         width: 70vw;
         height: 30vw;
     }
+    .contact-SocialMedia{
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-between;
+        width: 50vw;
+      }
+      .SocialMedia {
+        display: none;
+      }
+      .contact-Mail{
+        background-image: url("/src/assets/icons8-mail-96.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      
+        width: 22px;
+        height: 22px;
+      
+        transition: background-image 0.3s ease, transform 0.3s ease;
+      }
+      
+      .contact-GitHub{
+        background-image: url("/src/assets/icons8-github-90.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      
+        width: 25px;
+        height: 25px;
+        transition: background-image 0.3s ease, transform 0.3s ease;
+      }
+      
+      .contact-Linkedin{
+        background-image: url("/src/assets/icons8-linkedin-90.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      
+        width: 22px;
+        height: 22px;
+        
+        transition: background-image 0.3s ease, transform 0.3s ease;
+      }
 }

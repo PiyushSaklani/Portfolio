@@ -21,52 +21,79 @@ function MAIN_PAGE() {
   const scrollToAbout = () => {
     const aboutSection = document.getElementById("about-section");
     aboutSection.scrollIntoView({ behavior: "smooth" });
+    setShowMenu(false);
   };
   const scrollToLanding = () => {
     const landingSection = document.getElementById("landing-section");
     landingSection.scrollIntoView({ behavior: "smooth" });
+    setShowMenu(false);
   };
   const scrollToSkills = () => {
     const skillsSection = document.getElementById("skills-section");
     skillsSection.scrollIntoView({ behavior: "smooth" });
+    setShowMenu(false);
   };
   const scrollToProjects = () => {
     const projectsSection = document.getElementById("projects-section");
     projectsSection.scrollIntoView({ behavior: "smooth" });
+    setShowMenu(false);
   };
   const scrollToContact = () => {
     const contactSection = document.getElementById("contact-section");
     contactSection.scrollIntoView({ behavior: "smooth" });
+    setShowMenu(false);
   };
 
   return (
     <>
-      {showMenu && <MENU menu_closeBtn={handle_menu_close_btn} />}
-      {!showMenu && (
-        <div className="main-P-outer-div">
-          <div className="main-P-appbar">
-            <div className="main-P-name">P.Saklani_</div>
-            <div className="main-P-menu-btn" onClick={handle_menu_open_btn}></div>
-            <ul className="main-P-nav-list">
-              <li id="main-P-nav-item" onClick={scrollToLanding}>Home</li>
-              <li id="main-P-nav-item" onClick={scrollToAbout}>About</li>
-              <li id="main-P-nav-item" onClick={scrollToProjects}>Projects</li>
-              <li id="main-P-nav-item" onClick={scrollToSkills}>Skill</li>
-              <li id="main-P-nav-item" onClick={scrollToContact} >Resume</li>
-              <li id="main-P-nav-item">
-                <button onClick={scrollToContact}>Contact</button>
-              </li>
-            </ul>
-          </div>
-          <div className="main-P-inner-div">
-            <LANDING_PAGE />
-            <SKILLS />
-            <PROJECTS_PAGE />
-            <ABOUT />
-            <CONTACT />
-          </div>
+      <div className="main-P-outer-div">
+        {showMenu && (<div className="floating-main-menu-items">
+          <ul>
+            <li className="close-btn">
+            <div className="menu-close-btn" onClick={handle_menu_close_btn}></div>
+            </li>
+            <li onClick={scrollToLanding}>Home</li>
+            <li onClick={scrollToAbout}>About</li>
+            <li onClick={scrollToProjects}>Projects</li>
+            <li onClick={scrollToSkills}>Skills</li>
+            <li onClick={scrollToContact}>Resume</li>
+            <li onClick={scrollToContact}>Contact</li>
+          </ul>
+        </div>)}
+        <div className="main-P-appbar">
+          <div className="main-P-name">P.Saklani_</div>
+          {!showMenu && (
+          <div className="main-P-menu-btn" onClick={handle_menu_open_btn}></div>
+        )}
+          <ul className="main-P-nav-list">
+            <li id="main-P-nav-item" onClick={scrollToLanding}>
+              Home
+            </li>
+            <li id="main-P-nav-item" onClick={scrollToAbout}>
+              About
+            </li>
+            <li id="main-P-nav-item" onClick={scrollToProjects}>
+              Projects
+            </li>
+            <li id="main-P-nav-item" onClick={scrollToSkills}>
+              Skills
+            </li>
+            <li id="main-P-nav-item" onClick={scrollToContact}>
+              Resume
+            </li>
+            <li id="main-P-nav-item">
+              <button onClick={scrollToContact}>Contact</button>
+            </li>
+          </ul>
         </div>
-      )}
+        <div className="main-P-inner-div">
+          <LANDING_PAGE />
+          <SKILLS />
+          <PROJECTS_PAGE />
+          <ABOUT />
+          <CONTACT />
+        </div>
+      </div>
     </>
   );
 }
