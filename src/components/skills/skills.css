@@ -17,7 +17,9 @@
 }
 
 .skills-main {
-  width: 100%;
+    padding: 50px 0;
+  width: 100vw;
+  /* height: 100%; */
 
   display: flex;
   justify-content: center;
@@ -30,8 +32,8 @@
 
 .skills-title {
 
-    margin: 0 60px;
-    height: 100%;
+    margin: 0 2vw;
+    /* height: 100%; */
   font-family: var(--font-4);
   font-size: 124px;
   writing-mode: vertical-rl;
@@ -39,16 +41,12 @@
   text-align: center;
 
   color: var(--primary-colour);
-  /* background-color: aqua; */
-  /* -webkit-text-fill-color: transparent; */
-  /* -webkit-text-stroke-width: 4px; */
-  /* -webkit-text-stroke-color: var(--text-colour); */
 }
 
 .skills-logo{
-    height: 100%;
+    /* height: 100%; */
 
-    margin: 0 30px;
+    margin: 0 2vw;
 
     /* background-color: aquamarine; */
 }
@@ -112,4 +110,20 @@
 }
 .skill-16{
     background-image: url("../../assets/icons/flutter2.png");
+}
+
+@media only screen and (max-width: 770px) {
+    .skills-title {
+        margin: 0 5vw;
+      font-size: 56px;
+    }
+    .skills-logo{
+        margin: 0 1vw;
+    }
+    #skills{
+        width: 40px;
+        height: 40px;
+    
+        margin: 5px;
+    }
 }
