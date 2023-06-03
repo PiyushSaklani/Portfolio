@@ -41,7 +41,7 @@ function LANDING_PAGE() {
 
   return (
     <div className={`landing-main-div ${isHovered ? "name-hovered" : ""}`}
-    onMouseMove={handleMouseMove}
+    onMouseMove={handleMouseMove} id="landing-section"
     >
       <div className="landing-text">
         <div className="landing-greeting">Hello I'm</div>

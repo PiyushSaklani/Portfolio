@@ -8,7 +8,7 @@ import PROJECT_4 from "./project4/project4";
 
 function PROJECTS_PAGE() {
   return (
-    <div className="project-main-div">
+    <div className="project-main-div" id="projects-section">
       <div className="title-div">
         <div className="project-title-1">PROJECTS</div>
       </div>

@@ -3,7 +3,7 @@ import '../skills/skills.css'
 
 function SKILLS(){
     return(
-        <div className='skills-main'>
+        <div className='skills-main' id='skills-section'>
             <div className='skills-logo'>
                 <div className='skill-1' id='skills'></div>
                 <div className='skill-2' id='skills'></div>

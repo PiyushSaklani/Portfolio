@@ -4,18 +4,35 @@ import "../contact/contact.css";
 function CONTACT() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
   const [content, setContent] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const requestOptions = {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ sub: subject, txt: `Name: ${name}\nEmail: ${email}\n\n ${content}` }),
+    };
+  
+    fetch('http://localhost:8080/send-email', requestOptions)
+      .then((response) => response.json())
+      .then((data) => {
+        console.log('Email sent successfully:', data);
+        alert("Email sent successfully")
+      })
+      .catch((error) => {
+        alert("ERROR: Unable to send email")
+        console.error('Failed to send email:', error);
+      });
 
   };
 
   return (
-    <div className="contact-main">
+    <div className="contact-main" id="contact-section">
       <div className="contact-flex-div1">
         <div className="contact-logo"></div>
-        <a href="src/assets/Piyush'sResume.pdf" download>
+        <a href="Resume.pdf" download>
           <div className="download">
             <div className="download-title">Resume</div>
             <div className="download-logo"></div>
@@ -49,6 +66,20 @@ function CONTACT() {
               required
               className="form-input-2"
               placeholder="Enter your email"
+            />
+          </div>
+
+          <div className="form-subject" id="form-div">
+            <label htmlFor="subject">Subject:</label>
+            <input
+              type="subject"
+              id="subject"
+              name="subject"
+              value={subject}
+              onChange={(e) => setSubject(e.target.value)}
+              required
+              className="form-input-2"
+              placeholder="Subject"
             />
           </div>
 
