@@ -52,7 +52,7 @@ function CONTACT() {
         </a>
       </div>
       </div>
-      <div className="contact-flex-div2">
+      {/* <div className="contact-flex-div2">
         <form onSubmit={handleSubmit} className="contact-form">
           <div className="form-name" id="form-div">
             <label htmlFor="name">Name:</label>
@@ -112,7 +112,7 @@ function CONTACT() {
             <button type="submit" className="form-btn">Submit</button>
           </div>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 }
