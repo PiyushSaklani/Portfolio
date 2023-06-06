@@ -6,7 +6,7 @@ function ABOUT() {
     <div className="about-main-div" id="about-section">
       <div className="about-main-div-1">
         <div className="about-me">
-          <div className="title-1">ABOUT</div>
+          <div className="title-1">ABOUT ME</div>
           <br />
           <div className="about-me-emj">: )</div>
           <br />

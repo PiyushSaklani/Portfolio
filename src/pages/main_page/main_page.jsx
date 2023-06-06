@@ -52,9 +52,9 @@ function MAIN_PAGE() {
             <div className="menu-close-btn" onClick={handle_menu_close_btn}></div>
             </li>
             <li onClick={scrollToLanding}>Home</li>
-            <li onClick={scrollToAbout}>About</li>
-            <li onClick={scrollToProjects}>Projects</li>
             <li onClick={scrollToSkills}>Skills</li>
+            <li onClick={scrollToProjects}>Projects</li>
+            <li onClick={scrollToAbout}>About Me</li>
             <li onClick={scrollToContact}>Resume</li>
             <li onClick={scrollToContact}>Contact</li>
           </ul>
@@ -68,14 +68,14 @@ function MAIN_PAGE() {
             <li id="main-P-nav-item" onClick={scrollToLanding}>
               Home
             </li>
-            <li id="main-P-nav-item" onClick={scrollToAbout}>
-              About
+            <li id="main-P-nav-item" onClick={scrollToSkills}>
+              Skills
             </li>
             <li id="main-P-nav-item" onClick={scrollToProjects}>
               Projects
             </li>
-            <li id="main-P-nav-item" onClick={scrollToSkills}>
-              Skills
+            <li id="main-P-nav-item" onClick={scrollToAbout}>
+              About Me
             </li>
             <li id="main-P-nav-item" onClick={scrollToContact}>
               Resume
