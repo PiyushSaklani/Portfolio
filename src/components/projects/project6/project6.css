@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&family=Rajdhani&family=Raleway&family=Rubik:wght@800&family=Sacramento&family=Space+Grotesk&display=swap");
+
+:root {
+  --primary-colour: #f8f9fa;
+  --text-colour: #343a40;
+
+  --font-1: "Sacramento", cursive;
+  --font-2: "Space Grotesk", sans-serif;
+  --font-3: "Raleway", sans-serif;
+  --font-4: "Rubik", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-2);
+}
+
+.project-6{
+    display: flex;
+  
+    align-items: center;
+  }
+
+  .p6-img{
+    order: 2;
+    width: 800px;
+    height: 500px;
+  
+    /* background-color: aquamarine; */
+    background-image: url("../../../assets/TC.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+  }
+  
+  .p6-details{
+    order: 1;
+    flex: 1;
+  
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 0 40px;
+  }
+  
+  .p6-name-source{
+    display: flex;
+  }
+  
+  .p6-name{
+    font-family: var(--font-2);
+    font-weight: 900;
+  
+    font-size: 64px;
+  }
+  
+  .p6-source-code{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 12px;
+  
+    background-image: url("/src/assets/icons/external-link.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  
+    transition: background-image 0.3s ease, transform 0.3s ease;
+  }
+  
+  .p6-source-code:hover{
+    background-image: url("/src/assets/icons/external-link2.png");
+    transform: scale(1.5);
+  }
+  
+  .p6-discription{
+    margin-top: 10px;
+    width: 100%;
+    line-height: 20px;
+    height: calc(2*20px);
+    overflow: hidden;
+    position: relative;
+  
+    word-spacing: 5px;
+    text-align: justify;
+  }
+  
+  .p6-discription::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(90deg, transparent, var(--primary-colour));
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .p6-discription:hover::after {
+    opacity: 0;
+  }
+  
+  .p6-discription:hover {
+    height: auto;
+    transition: height 0.3s ease-in-out;
+    overflow: visible;
+  }
+  
+  .p6-tools-used{
+    margin-top: 20px;
+    width: 100%;
+  
+    display: flex;
+    justify-content: start;
+  
+    /* background-color: #343a40; */
+  }
+  
+  #p6-tool{
+    height: 50px;
+    width: 50px;
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  
+  .p6-tool-1{
+    background-image: url("/src/assets/react.png");
+  }
+  .p6-tool-2{
+    background-image: url("/src/assets/html.png");
+  }
+  .p6-tool-3{
+    background-image: url("/src/assets/css3.png");
+  }
+  .p6-tool-4{
+    background-image: url("/src/assets/node-js.png");
+  }
+  .p6-tool-5{
+    background-image: url("/src/assets/mongodb.png");
+  }
+
+  @media only screen and (max-width: 770px){
+    .project-6{
+      margin-top: 100px;
+      flex-direction: column;
+    }
+    .p6-img{
+      order: 1;
+      width: 90vw;
+      /* background-color: #343a40; */
+      height: 220px;
+    }
+    .p6-name{
+      font-size: 32px;
+    }
+    .p6-source-code{
+      width: 15px;
+      height: 15px;
+    }
+    .p6-source-code:hover{
+      transform: scale(1.2);
+    }
+    .p6-discription{
+      line-height: 18px;
+      height: calc(2*18px);
+      word-spacing: 0px;
+      font-size: 14px;
+    }
+    #p6-tool{
+      height: 30px;
+      width: 30px;
+    }
+    .p6-details{
+      order: 2;
+    }
+  }

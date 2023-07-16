@@ -23,6 +23,7 @@
   }
 
   .p3-img{
+    order: 2;
     width: 800px;
     height: 500px;
   
@@ -33,6 +34,7 @@
   }
   
   .p3-details{
+    order: 1;
     flex: 1;
   
     height: 900px;
@@ -112,7 +114,7 @@
     width: 100%;
   
     display: flex;
-    justify-content: end;
+    justify-content: start;
   
     /* background-color: #343a40; */
   }
@@ -148,6 +150,7 @@
       flex-direction: column;
     }
     .p3-img{
+      order: 1;
       width: 90vw;
       /* background-color: #343a40; */
       height: 220px;
@@ -171,5 +174,8 @@
     #p3-tool{
       height: 30px;
       width: 30px;
+    }
+    .p3-details{
+      order: 2;
     }
   }

@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import "./App.css";
 import MAIN_PAGE from "./pages/main_page/main_page";
 
 function App() {
+  useEffect(() => {
+    document.title = "Piyush's Portfolio"; // Set the new title here
+
+  }, []);
   return (
     <div className="App">
       <div className="Pages">

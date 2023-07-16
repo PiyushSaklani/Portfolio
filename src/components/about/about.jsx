@@ -20,6 +20,36 @@ function ABOUT() {
           such as React, Node.js, Vue.js, Flutter, FastAPI, and Express.js. I am
           familiar with Git, Docker, Google Cloud Platform, and IDEs such as VS
           Code, PyCharm, IntelliJ, and Eclipse.
+          {/* <div className="contact-flex-div1">
+            <div className="contact-logo"></div>
+            <a href="Resume.pdf" download>
+              <div className="download">
+                <div className="download-title">Resume</div>
+                <div className="download-logo"></div>
+              </div>
+            </a>
+            <div className="contact-SocialMedia">
+              <a href="mailto:saklani302@gmail.com">
+                <div className="contact-Mail" id="SM"></div>
+              </a>
+
+              <a
+                href="https://github.com/PiyushSaklani"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="contact-GitHub" id="SM"></div>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/piyushsaklani/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div className="contact-Linkedin" id="SM"></div>
+              </a>
+            </div>
+          </div> */}
         </div>
       </div>
       <div className="about-main-div-2">

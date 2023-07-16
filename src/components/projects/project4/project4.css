@@ -25,6 +25,7 @@
   }
   
   .p4-img{
+    order: 1;
     width: 800px;
     height: 500px;
   
@@ -35,6 +36,7 @@
   }
   
   .p4-details{
+    order: 2;
     flex: 1;
     /* background-color:aqua; */
   
@@ -115,7 +117,7 @@
     width: 100%;
   
     display: flex;
-    justify-content: start;
+    justify-content: end;
   
     /* background-color: #343a40; */
   }

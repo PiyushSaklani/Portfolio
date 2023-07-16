@@ -54,13 +54,13 @@ function MAIN_PAGE() {
             <li onClick={scrollToLanding}>Home</li>
             <li onClick={scrollToSkills}>Skills</li>
             <li onClick={scrollToProjects}>Projects</li>
-            <li onClick={scrollToAbout}>About Me</li>
+            <li onClick={scrollToAbout}>About</li>
             <li onClick={scrollToContact}>Resume</li>
             <li onClick={scrollToContact}>Contact</li>
           </ul>
         </div>)}
         <div className="main-P-appbar">
-          <div className="main-P-name">P.Saklani_</div>
+          <div className="main-P-name"></div>
           {!showMenu && (
           <div className="main-P-menu-btn" onClick={handle_menu_open_btn}></div>
         )}
@@ -75,7 +75,7 @@ function MAIN_PAGE() {
               Projects
             </li>
             <li id="main-P-nav-item" onClick={scrollToAbout}>
-              About Me
+              About
             </li>
             <li id="main-P-nav-item" onClick={scrollToContact}>
               Resume

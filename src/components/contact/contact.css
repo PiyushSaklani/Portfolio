@@ -28,7 +28,8 @@
 
 .contact-flex-div1{
     margin: 5vw 0;
-    width: 100vw;
+    width: 100vw;  /* when i am showing the contact below */
+    /* width: 50vw; */
     /* height: 100%; */
     /* background-color: aqua; */
 
@@ -54,10 +55,12 @@
     width: 30vw;
     height: 200px;
 
-    background-image: url("../../assets/Piyush\'s\ Logo.png");
+    /* background-image: url("../../assets/Piyush\'s\ Logo.png"); */
+    background-image: url("../../assets/Logo/PS_LOGO.png");
     background-repeat: no-repeat;
-    background-position:start;
+    background-position:center;
     background-size:contain;
+    filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.4));
 }
 
 .download{
